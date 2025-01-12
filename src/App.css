@@ -1,0 +1,107 @@
+/* General App Styles */
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #333;
+  padding: 20px;
+  position: relative;
+}
+
+/* Header (English Dictionary) Styles */
+h1 {
+  color: #4CAF50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px; /* A távolság a tetejétől */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+/* Search Bar Styles */
+input {
+  padding: 10px 12px;
+  width: 100%;
+  max-width: 500px;
+  font-size: 18px;
+  border: 2px solid #4CAF50;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  margin-top: 100px; /* Add space for the fixed header */
+}
+
+input:focus {
+  outline: none;
+  border-color: #45a049;
+  box-shadow: 0 4px 6px rgba(72, 176, 72, 0.5);
+}
+
+/* Word List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 50px; /* Add space for the fixed search bar */
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+  transform: translateY(-5px);
+}
+
+li .term {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+li .definition {
+  margin-top: 5px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input {
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  li {
+    padding: 12px;
+    font-size: 16px;
+  }
+}

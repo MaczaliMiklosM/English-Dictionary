@@ -1,0 +1,32 @@
+term|definition
+access point| A device that allows wireless-equipped computers and other devices to communicate with a wired network.
+address| Identifies the location of an Internet resource.
+alias| A short, easy to remember name created for use in place of a longer, more complicated name; commonly used in e-mail applications. Also referred to as a "nickname".
+application| A program designed for a specific purpose, such as word processing or graphic design.
+bit| A binary digit (either 0 or 1); it is the most basic unit of data that can be recognized and processed by a computer.
+blog| Refers to a weblog, a web page that contains journal-like entries and links that are updated daily for public viewing.
+bluetooth| A wireless networking technology that allows users to send voice and data from one electronic device to another via radio waves.
+captcha| A challenge-response test in the form of an image of distorted text the user must enter that to determine whether the user is human or an automated bot.
+cookie| A small piece of information you may be asked to accept when connecting to certain servers via a web browser.
+CPU| Central processing unit; the part of a computer that oversees all operations and calculations.
+database| A collection of information organized so that a computer application can quickly access selected information; it can be thought of as an electronic filing system.
+download| The process of transferring one or more files from a remote computer to your local computer. The opposite action is upload.
+encryption| The manipulation of data to prevent accurate interpretation by all but those for whom the data is intended.
+firewall| A method of preventing unauthorized access to or from a particular network; firewalls can be implemented in both hardware and software, or both.
+flash drive| A small device that plugs into computer's USB port and functions as a portable hard drive.
+folder| An area on a hard disk that contains a related set of files or alternatively, the icon that represents a directory or subdirectory.
+Internet Domain Management, The process of choosing, hosting, maintaining and securing internet domain(s).
+IP address| Internet Protocol address; every computer connected to the Internet has a unique identifying number. Example: 192.168.100.2.
+LAN| Local area network; a network that extends over a small area. Connects a group of computers for the purpose of sharing resources such as programs, documents, or printers.
+LINUX| An open-source operating system that runs on a number of hardware platforms including PCs and Macintoshes. Linux is freely available over the Internet.
+mainframe| A very large computer capable of supporting hundreds of users running a variety of different programs simultaneously.
+moderator| A person who reviews and has the authority to block messages posted to a supervised or "moderated" network newsgroup or online community.
+network| A group of interconnected computers capable of exchanging information. A network can be as few as several personal computers on a LAN or as large as the Internet, a worldwide network of computers.
+online| A term that has commonly come to mean "connected to the Internet". It also is used to refer to materials stored on a computer or to a device like a printer that is ready to accept commands from a computer.
+password| A secret combination of characters used to access a secured resource such as a computer, a program, a directory, or a file; often used in conjunction with a username.
+PING| Packet Internet Groper; a utility used to determine whether a particular computer is currently connected to the Internet. It works by sending a packet to the specified IP address and waiting for a reply.
+RAM| Random Access Memory; the amount of memory available for use by programs on a computer. Also referred to as "main memory".
+remote desktop| A Windows feature that allows you to have access to a Windows session from another computer in a different location (XP and later).
+RGB| Red, green, and blue; the primary colors that are mixed to display the color of pixels on a computer monitor. Every color of emitted light can be created by combining these three colors in varying levels.
+ROM| Read Only Memory; a special type of memory used to store programs that start a computer and do diagnostics. Data stored in ROM can only be read and cannot be removed even when your computer is turned off.
+router| A device used for connecting two Local Area Networks (LANs); routers can filter packets and forward them according to a specified set of criteria.
