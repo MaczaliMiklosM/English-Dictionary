@@ -1,4 +1,3 @@
-/* General App Styles */
 .App {
   font-family: 'Arial', sans-serif;
   background-color: #f9f9f9;
@@ -12,13 +11,12 @@
   position: relative;
 }
 
-/* Header (English Dictionary) Styles */
 h1 {
   color: #4CAF50;
   font-size: 2.5rem;
   margin-bottom: 20px;
   position: absolute;
-  top: 20px; /* A távolság a tetejétől */
+  top: 20px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
@@ -28,8 +26,6 @@ h1 {
 }
 
 
-
-/* Search Bar Styles */
 input {
   padding: 10px 12px;
   width: 100%;
@@ -39,7 +35,7 @@ input {
   border-radius: 25px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
-  margin-top: 100px; /* Add space for the fixed header */
+  margin-top: 100px; 
 }
 
 input:focus {
@@ -48,14 +44,13 @@ input:focus {
   box-shadow: 0 4px 6px rgba(72, 176, 72, 0.5);
 }
 
-/* Word List Styles */
 ul {
   list-style-type: none;
   padding: 0;
   margin: 20px 0;
   width: 100%;
   max-width: 600px;
-  margin-top: 50px; /* Add space for the fixed search bar */
+  margin-top: 50px; 
 }
 
 li {
@@ -85,7 +80,7 @@ li .definition {
   font-size: 16px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .App {
     padding: 10px;
