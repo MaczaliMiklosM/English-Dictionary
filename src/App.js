@@ -8,14 +8,14 @@ function App() {
   const [words, setWords] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Load CSV file
+  
   useEffect(() => {
     fetch('/words.csv')
       .then((response) => response.text())
       .then((data) => {
         const parsed = Papa.parse(data, {
           header: true,
-          delimiter: '|',  // Adjusted CSV delimiter
+          delimiter: '|',  
         });
         if (parsed && parsed.data) {
           setWords(parsed.data.filter((item) => item.term && item.definition));
@@ -23,11 +23,11 @@ function App() {
       })
       .catch((error) => {
         console.error('Error loading CSV data:', error);
-        setWords([]); // Empty list for fallback
+        setWords([]);
       });
   }, []);
 
-  // Filter words based on search term
+
   const filteredWords = words.filter((word) =>
     word.term?.toLowerCase().includes(searchTerm.toLowerCase())
   );
